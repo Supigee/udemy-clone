@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: "Gabarito", sans-serif;
+}
+.navbar{
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  border-bottom: solid black 1px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+@media screen and (max-width:766px) {
+.navbar,.navbar__s2,.navbar__s3{
+  display: block;
+}
+}
+
+.navbar__s1__title{
+  color:#A435F0;
+}
+
+.navbar__s2{
+padding: 10px;
+border: solid black 1px;
+border-radius: 30px;
+width: 60%;
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.navbar__s2 input{
+border:none;
+font-size: 16px;
+width: 100%;
+}
+.navbar__s2 input:focus{
+  outline: none;
+}
+.navbar__s3{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.categories{
+  display:flex;
+  padding: 10px;
+  border-bottom: solid black 1px;
+  justify-content: space-around;
+}
+@media screen and (max-width:766px){
+  .categories{
+    display:block;
+    padding: 10px;
+    border-bottom: solid black 1px;
+  }
+.categories__1,.categories__2,.categories__3,.categories__4,.categories__5{
+  margin: 10px;
+}
+
+ 
+}
+.categories p{
+  background-color: #A435F0;
+  color:white;
+  padding: 10px;
+  border-radius: 30px;
+}
+.categories p:hover{
+cursor: pointer;
+background-color: white;
+color: black;
+border: solid #A435F0 1px;
+}
+.sale-image img{
+width: 100%;
+}
+.recommended{
+  padding: 10px;
+}
+.recommended__container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-top: 10px;
+}
+.course-card{
+  width: 250px;
+}
+.course-card img{
+  height: 50%;
+  width: 100%;
+}
+.topics{
+  padding: 10px;
+}
+.topics__container{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.topics__container p{
+  border: solid gray 2px;
+  padding:10px;
+  flex-grow: 1;
+  flex-basis: 25%;
+}
+.topics__container p:hover{
+  cursor: pointer;
+  background-color: beige;
+}
+.popular{
+  padding: 10px;
+}
+.popular__container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.footer{
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+.footer__one{
+  display: flex;
+  gap: 20px;
+}
+.footer__one__s1 p{
+ padding: 5px;
+}
+.footer__two{
+  display: flex;
+  padding-top: 20px;
+ justify-content: space-between;
+}
+.footer__one__s2 p{
+  padding: 5px;
+ }
